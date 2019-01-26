@@ -1,0 +1,44 @@
+<div class="section__index-title">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>Tipos de Drogas</h1>
+				<hr style="border: 2px solid orange">
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="section__index-blog-content">
+	<div class="container">
+		<div class="row">
+			<% @blog.each do |i| %>
+   			<div class="col-md-4 box-blog jumbotron">
+					<div class="row">
+						<div class="col border">
+							<%= image_tag(i.image_url, class: "img-fluid") %>			
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<h2><%=i.title%></h2>						
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+						<p><%= truncate(i.description, length: 100) %></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<%= link_to 'Ver mas', class: "btn btn-warning" %> 
+						</div>
+					</div>
+				</div>
+			<% end%>
+		</div>
+	</div>
+</div>

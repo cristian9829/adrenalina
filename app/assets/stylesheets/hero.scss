@@ -4,4 +4,9 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: 500px;
+
+	.img-fluid{
+		border-radius: 15px;
+		border: 1px solid black;
+	}
 }

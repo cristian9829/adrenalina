@@ -1,0 +1,19 @@
+<div class="section__blog-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto">
+        <h2><%= @blog.title %></h2>
+        <hr>
+        <p class="lead"> <%=@blog.description%></p>
+        <ul><%= @blog.content %></ul>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<%= image_tag(@blog.image_url, class: "img-fluid") %>
+					<br><br>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
