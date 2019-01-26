@@ -1,14 +1,14 @@
 <div class="section__drugs">
 	<div class="container">
 		<div class="row container-cards">
-
 			<%= render 'about' %>
-
-			<div class="col-md-4">
-				<div class="card">
-					<p>Canabis</p>
+			<% @blog.each do |i| %>
+				<div class="col-md-4">
+					<div class="card">
+						<p><%= i.title %></p>
+					</div>
 				</div>
-			</div>
+			<% end %>
 		</div>
 		</div>
 	</div>
