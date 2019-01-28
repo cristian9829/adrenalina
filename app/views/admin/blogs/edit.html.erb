@@ -1,0 +1,10 @@
+<div class="container">
+	<%= link_to 'volver', admin_blogs_path, class: "btn btn-link" %>
+	<div class="row">
+		<div class="col text-center">
+			<h1>Editar el Blog <%= @blog.title %></h1>
+			<br>
+		</div>
+	</div>
+</div>
+<%= render 'form' %>

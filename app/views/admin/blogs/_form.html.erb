@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="col-md-8 jumbotron" style="margin: 0 auto;">
+        <%= form_for [:admin, @blog] do |f| %>
+        <div class="card-body">
+          <div class="form-group">
+            <%= f.label :Titulo_del_blog %>
+            <%= f.text_field :title, class: "form-control", autofocus: true %>
+          </div>
+          <div class="form-group">
+            <%= f.label :description_del_blog %>
+            <%= f.text_field :description, class: "form-control" %>
+          </div>
+          <div class="form-group">
+            <%= f.label :Efectos_del_blog %>
+            <%= f.text_area :content, rows: 4, class: "form-control" %>
+          </div>
+          <div class="form-group">
+            <%= f.label :url_imagen %>
+            <%= f.url_field :image_url, class: "form-control" %>
+          </div>
+        </div>
+        <div class="card-footer text-right">
+          <%= f.submit :Listo, class: "btn btn-primary" %>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

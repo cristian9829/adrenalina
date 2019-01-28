@@ -1,0 +1,34 @@
+<div class="section__admin-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>Administrador</h1>
+			</div>
+		</div>
+		<%= link_to 'Crear nuevo blog', new_admin_blog_path, class: "btn btn-link" %>
+		<div class="row">
+			<div class="col">
+				<br>
+				<table class="table table-striped">
+			    <thead>
+			      <tr>
+			        <th>Titulo</th>
+			        <th>Descripcion</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			    	<% @blogs.each do |blog| %>
+				      <tr>
+				        <td><%= blog.title %></td>
+				        <td> <%= blog.description %></td>
+				        <td><%= link_to "Detalles", admin_blog_path(blog), class: "btn btn-info"%></td>
+				        <td><%= link_to "Eliminar", admin_blog_path(blog), class: "btn btn-danger", method: :delete, data: { confirm: "¿Estás seguro de eliminar este libro?" } %></td>
+				        <td><%= link_to "Editar", edit_admin_blog_path(blog), class: "btn btn-success" %></td>
+				      </tr>							
+			    	<% end %>
+			    </tbody>
+			  </table>
+			</div>
+		</div>
+	</div>
+</div>
