@@ -81,7 +81,7 @@ Blog.create(title: "Cocaina",
       droga a la vez y puedes perder el control del grado de consumo de la droga.
     </li>
   </ul>",
-  image_url: "https://www.webconsultas.com/sites/default/files/styles/cabecera_noticia/public/articulos/historia-cocaina.jpg"
+  image_url: "https://www.elprogreso.es/media/elprogreso/images/2018/03/05/2018030515023533160.jpg"
 )
 
 
@@ -116,12 +116,12 @@ Blog.create(title: "Extasis",
      insolaciones, infartos o crisis de asma.
     </li>
   </ul>",
-  image_url: "https://lamenteesmaravillosa.com/wp-content/uploads/2017/09/pastillas-de-extasis-de-colores.jpg"
+  image_url: "http://c.files.bbci.co.uk/10F3F/production/_96693496_2b092cbf-3330-4c0c-baaf-e5484df5ab2b.jpg"
 )
 
 
 
-Blog.create(title: "heroina", description: "La heroína se elabora a 
+Blog.create(title: "Heroina", description: "La heroína se elabora a 
   partir de la morfina, una de las drogas que procede de la 
   adormidera del opio. Se consume inyectándose o fumándose, 
   lo que se llama ‘cazar al dragón’.", 
@@ -147,7 +147,7 @@ Blog.create(title: "heroina", description: "La heroína se elabora a
       adicción, en especial si se inyecta la droga.
     </li>
   </ul>",
-  image_url: "https://lamenteesmaravillosa.com/wp-content/uploads/2017/09/pastillas-de-extasis-de-colores.jpg"
+  image_url: "https://informacionsobredrogas.com/wp-content/uploads/2016/05/heroin-health.jpg"
 )
 
 Blog.create(title: "Anfetaminas", 
@@ -175,7 +175,7 @@ Blog.create(title: "Anfetaminas",
        son los mismos que los de las otras sustancias, como la heroína.
     </li>
   </ul>",
-  image_url:"https://static1.diariovasco.com/www/multimedia/201801/16/media/cortadas/anfetmanas-kfYE--624x385@Diario%20Vasco.jpg" 
+  image_url:"https://designificados.com/wp-content/uploads/2016/11/anfetaminas.jpg" 
 )
 
 Blog.create(title: "LSD", description: "El LSD normalmente se presenta en pastillas pequeñas conocidas como ‘lentejas’ o 
@@ -204,7 +204,7 @@ Blog.create(title: "LSD", description: "El LSD normalmente se presenta en pastil
       setas venenosas por error, pensando que son mágicas.
     </li>
   </ul>",
-  image_url:"http://www.drugs.ie/images/uploads/banners/banner_lsd.jpg"
+  image_url:"https://www.lv16.com.ar/archivos/img/o/99304_1498216464_377.jpg"
 )
 
 
