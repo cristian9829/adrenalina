@@ -7,5 +7,9 @@ Rails.application.routes.draw do
   namespace :admin do
   	resources :blogs 
   end
+
+  namespace :api do
+  	resources :blogs, only: [:index] 
+  end
   
 end
