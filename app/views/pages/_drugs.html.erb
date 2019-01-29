@@ -3,11 +3,11 @@
 		<div class="row container-cards">
 			<%= render 'about' %>
 			<% @blog.each do |i| %>
-				<div class="col-md-4">
+				<%= link_to (i), class: "col-md-4"  do	 %>
 					<div class="card">
 						<p><%= i.title %></p>
 					</div>
-				</div>
+				<% end -%>
 			<% end %>
 		</div>
 		</div>
