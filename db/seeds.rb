@@ -208,7 +208,7 @@ Blog.create(title: "LSD", description: "El LSD normalmente se presenta en pastil
 )
 
 
-
+User.create!(email: "adrenalina@gmail.com",password: "123456", password_confirmation:"123456")
 
 
 
